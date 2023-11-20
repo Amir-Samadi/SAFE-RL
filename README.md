@@ -7,11 +7,15 @@ The proposed generator provides Counterfactual (CF) explanations for a given Dee
 ![SAFE-RL Image](./images/model.png "SAFE-RL")
 ## Installation
 
-First, install the requirements from `environment.yml`:
-
+First, install the requirements:
+For conda users:
 ```bash
-conda env create -f environment.yml
+conda create --name SAFE_RL python=3.8
 conda activate SAFE_RL
+```
+for all users:
+```bash
+pip install -r requirements.txt
 ```
 
 To properly install baselines, you have to use their Git repository, not pip.
