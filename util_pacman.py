@@ -36,9 +36,9 @@ import scipy.optimize
 from tensorboardX import SummaryWriter
 from core.models import *
 from core.agent_ray_pd import AgentCollection
-import ray
-import envs
-from trpo import trpo
+# import ray
+# import envs
+# from trpo import trpo
 import os
 import pickle
 from stable_baselines3.common.env_util import make_atari_env

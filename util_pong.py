@@ -34,17 +34,17 @@ import scipy.optimize
 from tensorboardX import SummaryWriter
 from core.models import *
 from core.agent_ray_pd import AgentCollection
-import ray
-import envs
-from trpo import trpo
+# import ray
+# import envs
+# from trpo import trpo
 import os
 import pickle
 from stable_baselines3.common.env_util import make_atari_env
 from stable_baselines3.common.vec_env import VecFrameStack
 import argparse
 from policy_distillation import main as policy_distillation 
-from student import Student
-from teacher import Teacher
+# from student import Student
+# from teacher import Teacher
 from utils.utils import *
 from PIL import Image, ImageOps
 
